@@ -37,11 +37,7 @@ We have explored eight representative fluorescence image restoration tasks， al
    
    conda activate LargePNetEnv
    
-   Then, cd to the directory of this source code and install the package listed in requirements.txt, for example:
-   
-   cd C:\Users\Administrator\Desktop\SourceCode
-   
-   pip install -r requirements.txt
+   Then, install the package listed in requirements.txt in the created virtual environment
    
    We provided jupyter notebook .ipynb files to directly illustrate the training and inference procedure
    
