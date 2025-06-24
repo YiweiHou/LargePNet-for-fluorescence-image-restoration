@@ -1,12 +1,12 @@
 # LargePNet-for-fluorescence-image-restoration
 
-This the supplementary code repository of the article "LargePNet: Large-view statistics aggregation enables finer restoration of fluorescence images"
+This is the supplementary code repository of the article "LargePNet: Large-view statistics aggregation enables finer restoration of fluorescence images"
 
 It contains a general fluorescence image resotration model LargePNet, and its extended verions.
 
 Its core idea is to aggregate large-view global information to improve the restoration performance. Its primary technical details are shown in the below figure.
 
-To exert the advantages of LargePNet, it typically requires training images with a resolution of 512x512
+To exert the advantages of LargePNet, it typically requires training images with a resolution of >512x512
 
 ![LargePNet](./Image/1.png)
 
@@ -22,6 +22,7 @@ We have explored eight representative fluorescence image restoration tasks，all
   - NVIDIA GPU (GeForce RTX 4080) 
 
 ## 🎨 Datasets and trained models download link
+
   In the peer-review stage these can only be downloaded by the reviewers using the Private Link provided in the Data availability sectioin of the manuscript. 
 
   Once published they will be all open-source.
