@@ -10,7 +10,7 @@ To exert the advantages of LargePNet, it typically requires training images with
 
 ![LargePNet](./Image/1.png)
 
-We have explored eight representative fluorescence image restoration tasks， all showing advantages of LargePNet over conventional small-patch-trained networks, as shonw below:
+We have explored eight representative fluorescence image restoration tasks，all showing advantages of LargePNet over conventional small-patch-trained networks, as shonw below:
 
 ![LargePNet](./Image/2.png)
 
@@ -55,7 +55,7 @@ We have explored eight representative fluorescence image restoration tasks， al
 
    We have provided .ipynb files of model training on different restoration tasks.
    
-   Users can follow the cell in .ipynb files to run the training code, and only need to change the Data_dir and save_dir according specific needs.
+   Users can follow the cell in .ipynb files to run the training code, and only need to change the Data_dir and save_dir according to specific needs.
    
    As an example of training on BioSR single-image super-resolution dataset:
    
