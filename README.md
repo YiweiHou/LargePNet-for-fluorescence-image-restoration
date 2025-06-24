@@ -14,4 +14,54 @@ We have explored eight representative fluorescence image restoration tasks， al
 
 ![LargePNet](./Image/2.png)
 
+## 💻 Testing environment
+  - Windows 11
+  - CUDA 11.8
+  - Python 3.10
+  - Pytorch 2.0.0
+  - NVIDIA GPU (GeForce RTX 4080) 
+
+## 🎨 Datasets download link
+  https://zenodo.org/records/15694668
+
+## ✨ Usage
+1. Environment setup
+   We recommend using Anaconda to setup a virtual environment for LargePNet. In Anaconda Prompt, for example:
+   
+   conda create -n LargePNetEnv python=3.10
+   conda activate LargePNetEnv
+   
+   Then, cd to the directory of this source code and install the package listed in requirements.txt, for example:
+   
+   cd C:\Users\Administrator\Desktop\SourceCode
+   pip install -r requirements.txt
+   
+   We provided jupyter notebook .ipynb files to directly illustrate the training and inference procedure 
+   Jupyter core shall be installed in the virtual environment before using:
+   
+   conda activate LargePNet
+   pip install --user ipykernel
+   python -m ipykernel install --user --name=LargePNetEnv
+   
+   After install, .ipynb files can be run with web browser or Pycharm Profession Edition
+   
+3. Training
+   We have provided .ipynb files of model training on different restoration tasks.
+   Users can follow the cell in .ipynb files to run the training code, and only need to change the Data_dir and save_dir according specific needs.
+   As an example of training on BioSR single-image super-resolution dataset:
+   Users can download our dataset file BioSR.zip, unzip it, and placed it in the Data folder
+   In the Train_SISR.ipynb file, users only need to specify: Data_dir = r'Data\BioSR\ER\Training', then click each cell for training
+   The default model training saving directory would be: Data_dir +r'\logfile\LargePNet'
+   The tqdm package is employed to display the training progress and loss variation.
+   
+4. Inference
+   Users can download our pretrained models and place it in the TrainedModel directory, or use self-trained models for inference.
+   As an example of inferring BioSR single-image super-resolution dataset with self-trained model:
+   In the Test_SISR.ipynb file, specify:
+   
+   head_dir = r"Data\BioSR\ER\Testing"
+   model.load_state_dict(torch.load(r'Data\BioSR\ER\Training\logfile\LargePNet\best_model.pth'))
+
+   Then click each cell for inference
+   The output .tif files would be placed at: head_dir + r'\output\LargePNet'
 
