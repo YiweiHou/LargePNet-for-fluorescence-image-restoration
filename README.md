@@ -42,7 +42,7 @@ We have explored eight representative fluorescence image restoration tasks，all
    
    Jupyter core shall be installed in the virtual environment before using:
    
-   conda activate LargePNet
+   conda activate LargePNetEnv
    
    pip install --user ipykernel
    
