@@ -21,9 +21,13 @@ We have explored eight representative fluorescence image restoration tasks， al
   - Pytorch 2.0.0
   - NVIDIA GPU (GeForce RTX 4080) 
 
-## 🎨 Datasets download link
-  https://zenodo.org/records/15694668
+## 🎨 Datasets and trained models download link
+  Datasets: https://zenodo.org/records/15694668
 
+  Trained models: https://doi.org/10.6084/m9.figshare.29387930
+
+  (Note: in the peer-review stage these can only be downloaded by the reviewers using the Private Link provided in the Data availability sectioin of the manuscript)
+  
 ## ✨ Usage
 1. Environment setup
    
