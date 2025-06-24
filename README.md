@@ -84,7 +84,7 @@ We have explored eight representative fluorescence image restoration tasks，all
 
 ## Acknowledgement
 
-  The development of the code refers the codes provided by the following works: 
+  The development of the code mainly refers the codes provided by the following works: 
 
   1. Ding, X. et al. Scaling Up Your Kernels to 31x31: Revisiting Large Kernel Design in CNNs. In IEEE Conference on Computer Vision and Pattern Recognition (2022).
 
@@ -93,3 +93,5 @@ We have explored eight representative fluorescence image restoration tasks，all
   3. Qiao, C. et al. Evaluation and development of deep neural networks for image super-resolution in optical microscopy. Nature Methods 18, 194-202 (2021).
 
   4. Weigert, M. et al. Content-aware image restoration: pushing the limits of fluorescence microscopy. Nature Methods 15, 1090-1097 (2018).
+
+  5. Wang, L. et al. Deep Video Super-Resolution using HR Optical Flow Estimation. IEEE Transactions on Image Processing PP, 1-1 (2020).
