@@ -2,7 +2,7 @@
 
 This the supplementary code repository of the article "LargePNet: Large-view statistics aggregation enables finer restoration of fluorescence images"
 
-It contains a general fluorescence image resotration models LargePNet
+It contains a general fluorescence image resotration model LargePNet, and its extended verions.
 
 Its core idea is to aggregate large-view global information to improve the restoration performance. Its primary technical details are shown in the below figure.
 
