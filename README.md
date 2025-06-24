@@ -25,7 +25,7 @@ We have explored eight representative fluorescence image restoration tasks， al
   https://zenodo.org/records/15694668
 
 ## ✨ Usage
-### 1. Environment setup
+1. Environment setup
    
    We recommend using Anaconda to setup a virtual environment for LargePNet. In Anaconda Prompt, for example:
    
@@ -46,7 +46,7 @@ We have explored eight representative fluorescence image restoration tasks， al
    
    After install, .ipynb files can be run with web browser or Pycharm Profession Edition
    
-### 2. Training
+2. Training
 
    We have provided .ipynb files of model training on different restoration tasks.
    Users can follow the cell in .ipynb files to run the training code, and only need to change the Data_dir and save_dir according specific needs.
@@ -56,7 +56,7 @@ We have explored eight representative fluorescence image restoration tasks， al
    The default model training saving directory would be: Data_dir +r'\logfile\LargePNet'
    The tqdm package is employed to display the training progress and loss variation.
    
-### 3. Inference
+3. Inference
 
    Users can download our pretrained models and place it in the TrainedModel directory, or use self-trained models for inference.
    As an example of inferring BioSR single-image super-resolution dataset with self-trained model:
