@@ -1,0 +1,12 @@
+pytorch
+torchvision
+numpy
+tiffile
+opencv-python
+tqdm
+math
+glob
+scikit-image
+timm
+pandas
+openpyxl
