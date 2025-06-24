@@ -22,11 +22,9 @@ We have explored eight representative fluorescence image restoration tasks，all
   - NVIDIA GPU (GeForce RTX 4080) 
 
 ## 🎨 Datasets and trained models download link
-  Datasets: https://zenodo.org/records/15694668
+  In the peer-review stage these can only be downloaded by the reviewers using the Private Link provided in the Data availability sectioin of the manuscript. 
 
-  Trained models: https://doi.org/10.6084/m9.figshare.29387930
-
-  (Note: in the peer-review stage these can only be downloaded by the reviewers using the Private Link provided in the Data availability sectioin of the manuscript)
+  Once published they will be all open-source.
   
 ## ✨ Usage
 1. Environment setup
