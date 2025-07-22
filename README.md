@@ -1,6 +1,6 @@
 # LargePNet-for-fluorescence-image-restoration
 
-This is the supplementary code repository of the article "LargePNet: Large-view statistics aggregation enables finer restoration of fluorescence images"
+This is the supplementary code repository of the article "Pushing the limits of fluorescence imaging with a restoration neural network aggregating large-view statistics"
 
 It contains a general fluorescence image resotration model LargePNet, and its extended verions.
 
