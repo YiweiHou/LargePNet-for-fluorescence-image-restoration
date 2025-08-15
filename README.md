@@ -23,7 +23,7 @@ We have explored eight representative fluorescence image restoration tasks，all
 
 ## 🎨 Datasets and trained models download link
 
-  In the peer-review stage these can only be downloaded by the reviewers using the Private Link provided in the Data availability sectioin of the manuscript. 
+  In the peer-review stage these can only be downloaded by the reviewers using the Private Link provided in the Data availability section of the manuscript. 
 
   Once published they will be all open-source.
   
@@ -58,7 +58,7 @@ We have explored eight representative fluorescence image restoration tasks，all
    
    As an example of training on BioSR single-image super-resolution dataset:
    
-   Users can download our dataset file BioSR.zip, unzip it, and placed it in the Data folder
+   Users can download our dataset file BioSR.zip, unzip it, and place it in the Data folder
    
    In the Train_SISR.ipynb file, users only need to specify: Data_dir = r'Data\BioSR\ER\Training', then click each cell for training
    
@@ -84,7 +84,7 @@ We have explored eight representative fluorescence image restoration tasks，all
 
 ## Acknowledgement
 
-  The development of the code mainly refers the codes provided by the following works: 
+  The development of the code mainly refers to the codes provided by the following works: 
 
   1. Ding, X. et al. Scaling Up Your Kernels to 31x31: Revisiting Large Kernel Design in CNNs. In IEEE Conference on Computer Vision and Pattern Recognition (2022).
 
