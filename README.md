@@ -2,15 +2,15 @@
 
 This is the supplementary code repository of the article "Pushing the limits of fluorescence imaging with a restoration neural network aggregating large-view statistics"
 
-It contains a general fluorescence image resotration model LargePNet, and its extended verions.
+It contains a general fluorescence image restoration model LargePNet, and its extended versions.
 
-Its core idea is to aggregate large-view global information to improve the restoration performance. Its primary technical details are shown in the below figure.
+Its core idea is to aggregate large-view global information to improve the restoration performance. Its primary technical details are shown in the figure below.
 
 To exert the advantages of LargePNet, it typically requires training images with a resolution of >512x512
 
 ![LargePNet](./Image/1.png)
 
-We have explored eight representative fluorescence image restoration tasks，all showing advantages of LargePNet over conventional small-patch-trained networks, as shonw below:
+We have explored eight representative fluorescence image restoration tasks，all showing advantages of LargePNet over conventional small-patch-trained networks, as shown below:
 
 ![LargePNet](./Image/2.png)
 
